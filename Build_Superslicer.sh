@@ -9,7 +9,7 @@ wait
 echo "===================="
 echo "= coffee break n°2 ="
 echo "===================="
-./BuildLinux.sh -dsi
+sudo ./BuildLinux.sh -dsi
 wait
 echo "===================="
 echo "=      finish      ="
