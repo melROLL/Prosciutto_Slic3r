@@ -9,6 +9,7 @@ echo "===================="
 echo "= coffee break n°1 ="
 echo "===================="
 git clone https://github.com/supermerill/SuperSlicer.git
+sudo apt upgrade -y
 wait
 cd SuperSlicer
 echo "===================="
