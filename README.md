@@ -5,4 +5,4 @@ Bon appetit !
   <img src="media/StupidLogo.png">
 </p>
 
-You need 6 Gb of RAM to make it run without any issues
+You need 6 Gb of RAM minimum to make it run without any issues
