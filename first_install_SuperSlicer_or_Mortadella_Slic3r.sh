@@ -28,6 +28,7 @@ echo_yellow "= coffee break n°1 ="
 echo_green "===================="
 sudo apt upgrade -y
 wait
+sudo chmod +x Build_Superslicer.sh
       git clone https://github.com/supermerill/SuperSlicer.git
       wait
 cd SuperSlicer
@@ -43,6 +44,7 @@ echo_yellow "= coffee break n°1 ="
 echo_green "===================="
 sudo apt upgrade -y
 wait
+sudo chmod +x Build_Mortadella_Slic3r.sh
         git clone https://github.com/melROLL/Mortadella_Slic3r
         wait
 cd Mortadella_Slic3r
