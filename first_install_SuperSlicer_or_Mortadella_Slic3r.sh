@@ -28,7 +28,7 @@ echo_yellow "= coffee break n°1 ="
 echo_green "===================="
 sudo apt upgrade -y
 wait
-sudo chmod +x Build_Superslicer.sh
+sudo chmod +x Build_SuperSlicer.sh
       git clone https://github.com/supermerill/SuperSlicer.git
       wait
 cd SuperSlicer
