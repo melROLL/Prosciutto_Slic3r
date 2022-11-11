@@ -34,30 +34,6 @@ sudo chmod +x Build_SuperSlicer.sh
 cd SuperSlicer
         ;;
     *)
-case "$response" in
-[bB][eE][eE]|[bB]) 
-      sudo apt update
-wait
-sudo apt install git -y
-wait
-cd
-echo_green "===================="
-echo_yellow "= coffee break n°1 ="
-echo_green "===================="
-sudo apt upgrade -y
-wait
-sudo chmod +x Build_Bee_Slic3r.sh
-      git clone https://github.com/supermerill/Bee_Slic3r.git -y
-      wait
-cd Bee_Slic3r
-        ;;
-    *)
-	case "$response" in
-[bB][eE][eE]|[dD]) 
-      sudo apt update
-        ;;
-    *)
-	
         sudo apt update
 wait
 sudo apt install git -y
