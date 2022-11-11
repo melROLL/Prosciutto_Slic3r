@@ -73,7 +73,7 @@ cd Mortadella_Slic3r
         ;;
     *)
 
-echo 'Understandable have a great day'
+echo "Understandable have a great day"
         ;;
 esac
 
