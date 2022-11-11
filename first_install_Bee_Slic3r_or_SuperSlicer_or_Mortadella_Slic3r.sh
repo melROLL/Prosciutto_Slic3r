@@ -18,7 +18,7 @@ function echo_red {
 read -r -p "Do you want to install Bee_Slic3r (B), Don't do anything (D), install SuperSlicer (S), install Mortadella_Slicer (M) ? [B/D/S/M] " response
 
 case "$response" in
-    [sS][eE][sS]|[bB]) 
+    [bB][eE][eE]|[bB]) 
       sudo apt update
 wait
 sudo apt install git -y
@@ -76,7 +76,6 @@ cd Mortadella_Slic3r
 echo "Understandable have a great day"
         ;;
 esac
-
 
 echo_green "===================="
 echo_yellow "= coffee break n°2 ="
