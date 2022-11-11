@@ -23,23 +23,22 @@ sudo chmod +x Build_Mortadella_Slic3r.sh
         git clone https://github.com/melROLL/Mortadella_Slic3r
         wait
 cd Mortadella_Slic3r
-        break;;
+        ;;
       S|s)
 
 sudo chmod +x Build_SuperSlicer.sh
       git clone https://github.com/supermerill/SuperSlicer.git
       wait
 cd SuperSlicer 
-        break;;
+        ;;
       B|b)
 
 sudo chmod +x Build_Bee_Slic3r.sh
       git clone https://github.com/melROLL/Bee_Slic3r
       wait
 cd Bee_Slic3r      
-        break;;
+        ;;
       D|d)
-        
         break;;
       *)
         ;;
