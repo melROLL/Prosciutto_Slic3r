@@ -20,21 +20,21 @@ read -r -p "Do you want to install Bee_Slic3r (B), Don't do anything (D), instal
       M|m)
 
 sudo chmod +x Build_Mortadella_Slic3r.sh
-        git clone https://github.com/melROLL/Mortadella_Slic3r -y
+        git clone https://github.com/melROLL/Mortadella_Slic3r
         wait
 cd Mortadella_Slic3r
         break;;
       S|s)
 
 sudo chmod +x Build_SuperSlicer.sh
-      git clone https://github.com/supermerill/SuperSlicer.git -y
+      git clone https://github.com/supermerill/SuperSlicer.git
       wait
 cd SuperSlicer 
         break;;
       B|b)
 
 sudo chmod +x Build_Bee_Slic3r.sh
-      git clone https://github.com/supermerill/Bee_Slic3r.git -y
+      git clone https://github.com/supermerill/Bee_Slic3r.git
       wait
 cd Bee_Slic3r      
         break;;
