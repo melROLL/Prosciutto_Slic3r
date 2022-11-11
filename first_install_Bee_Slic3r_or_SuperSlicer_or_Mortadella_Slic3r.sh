@@ -34,7 +34,7 @@ cd SuperSlicer
       B|b)
 
 sudo chmod +x Build_Bee_Slic3r.sh
-      git clone https://github.com/supermerill/Bee_Slic3r.git
+      git clone https://github.com/melROLL/Bee_Slic3r
       wait
 cd Bee_Slic3r      
         break;;
