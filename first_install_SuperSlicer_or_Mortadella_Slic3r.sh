@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#cool colors go brrrrrrr
+#cool colors go brrrrrrr!!!!!!!!!!!!!!
 function echo_yellow {
   TEXT="${@}"
   echo -e "\e[33m${TEXT}\e[0m"
@@ -20,7 +20,7 @@ case "$response" in
     [sS][eE][sS]|[sS]) 
       sudo apt update
 wait
-sudo apt install git 
+sudo apt install git -y
 wait
 cd
 echo_green "===================="
@@ -29,14 +29,14 @@ echo_green "===================="
 sudo apt upgrade -y
 wait
 sudo chmod +x Build_SuperSlicer.sh
-      git clone https://github.com/supermerill/SuperSlicer.git
+      git clone https://github.com/supermerill/SuperSlicer.git -y
       wait
 cd SuperSlicer
         ;;
     *)
         sudo apt update
 wait
-sudo apt install git 
+sudo apt install git -y
 wait
 cd
 echo_green "===================="
@@ -45,7 +45,7 @@ echo_green "===================="
 sudo apt upgrade -y
 wait
 sudo chmod +x Build_Mortadella_Slic3r.sh
-        git clone https://github.com/melROLL/Mortadella_Slic3r
+        git clone https://github.com/melROLL/Mortadella_Slic3r -y
         wait
 cd Mortadella_Slic3r
 
