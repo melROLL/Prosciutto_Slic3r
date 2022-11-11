@@ -34,7 +34,7 @@ sudo chmod +x Build_SuperSlicer.sh
 cd SuperSlicer
         ;;
     *)
-case "$response" in
+
 [bB][eE][eE]|[bB]) 
       sudo apt update
 wait
@@ -52,7 +52,6 @@ sudo chmod +x Build_Bee_Slic3r.sh
 cd Bee_Slic3r
         ;;
     *)
-	case "$response" in
 [bB][eE][eE]|[dD]) 
       sudo apt update
         ;;
