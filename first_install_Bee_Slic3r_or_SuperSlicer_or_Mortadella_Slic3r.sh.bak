@@ -43,13 +43,12 @@ cd Bee_Slic3r
       *)
         ;;
     esac
-	
 echo_green "===================="
 echo_yellow "= coffee break n°1 ="
 echo_green "===================="
 sudo apt update 
 sudo apt upgrade -y
-chmod +x BuildLinux.sh
+
 
 echo_green "===================="
 echo_yellow "= coffee break n°2 ="

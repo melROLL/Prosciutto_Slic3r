@@ -28,21 +28,18 @@ sudo chmod +x Build_SuperSlicer.sh
 sudo chmod +x Build_Mortadella_Slic3r.sh
 
 cd Mortadella_Slic3r
-chmod +x BuildLinux.sh
 sudo ./BuildLinux.sh -u
 wait
 sudo ./BuildLinux.sh -dsi
 wait
 cd
 cd SuperSlicer 
-chmod +x BuildLinux.sh
 sudo ./BuildLinux.sh -u
 wait
 sudo ./BuildLinux.sh -dsi
 wait
 cd
-cd Bee_Slic3r
-chmod +x BuildLinux.sh      
+cd Bee_Slic3r      
 sudo ./BuildLinux.sh -u
 wait
 sudo ./BuildLinux.sh -dsi
