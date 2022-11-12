@@ -13,7 +13,13 @@ function echo_red {
   TEXT="${@}"
   echo -e "\e[31m${TEXT}\e[0m"
 }
+
+sudo chmod +x Build_Bee_Slic3r.sh
+sudo chmod +x Build_SuperSlicer.sh
+sudo chmod +x Build_Mortadella_Slic3r.sh
+
 #dowloading averything that is needed
+cd
 sudo apt update 
 sudo apt upgrade -y
 git clone https://github.com/melROLL/Mortadella_Slic3r
@@ -22,11 +28,7 @@ git clone https://github.com/melROLL/Bee_Slic3r.git
 wait
 git clone https://github.com/supermerill/SuperSlicer.git
 wait
-
-sudo chmod +x Build_Bee_Slic3r.sh
-sudo chmod +x Build_SuperSlicer.sh
-sudo chmod +x Build_Mortadella_Slic3r.sh
-
+cd
 cd Mortadella_Slic3r
 chmod +x BuildLinux.sh
 sudo ./BuildLinux.sh -u

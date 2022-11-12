@@ -13,7 +13,7 @@ function echo_red {
   TEXT="${@}"
   echo -e "\e[31m${TEXT}\e[0m"
 }
-
+cd 
 #chose if the user want to build SuperSlicer or Mortadella Slicer or bee Slic3r
 read -r -p "Do you want to install Bee_Slic3r (B), Don't do anything (D), install SuperSlicer (S), install Mortadella_Slicer (M) ? [B/D/S/M] " choice
     case "${choice}" in
