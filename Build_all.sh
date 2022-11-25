@@ -14,6 +14,9 @@ function echo_red {
   TEXT="${@}"
   echo -e "\e[31m${TEXT}\e[0m"
 }
+sudo chmod +x Build_SuperSlicer.sh
+sudo chmod +x Build_Mortadella_Slic3r.sh
+sudo chmod +x Build_Bee_Slic3r.sh
 cd
 echo_yellow "===================="
 echo_green "===================="
@@ -22,14 +25,14 @@ echo_green "===================="
 echo_yellow "===================="
         git clone https://github.com/melROLL/Mortadella_Slic3r.git
       git clone https://github.com/melROLL/Bee_Slic3r.git
-	        git clone https://github.com/melROLL/SuperSlicer.git
+	        git clone https://github.com/melROLL/SuperSlicerM.git
 cd 
 echo_yellow "===================="
 echo_green "===================="
 echo_yellow "=      Mortadella_Slic3r      ="
 echo_green "===================="
 echo_yellow "===================="
-sudo chmod +x Build_Mortadella_Slic3r.sh
+
 
         wait
 cd Mortadella_Slic3r
@@ -46,9 +49,9 @@ echo_green "===================="
 echo_yellow "=      SuperSlicer      ="
 echo_green "===================="
 echo_yellow "===================="
-sudo chmod +x Build_SuperSlicer.sh
+
 wait
-cd SuperSlicer 
+cd SuperSlicerM 
 sudo apt update 
 sudo apt upgrade -y
 chmod +x BuildLinux.sh
@@ -62,7 +65,7 @@ echo_green "===================="
 echo_yellow "=      Bee_Slic3r      ="
 echo_green "===================="
 echo_yellow "===================="
-sudo chmod +x Build_Bee_Slic3r.sh
+
       wait
 cd Bee_Slic3r    
 sudo apt update 
