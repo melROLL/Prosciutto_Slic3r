@@ -23,9 +23,9 @@ echo_green "===================="
 echo_yellow "=      Downloading      ="
 echo_green "===================="
 echo_yellow "===================="
-        git clone https://github.com/melROLL/Mortadella_Slic3r.git
-      git clone https://github.com/melROLL/Bee_Slic3r.git
-	        git clone https://github.com/melROLL/SuperSlicerM.git
+        git clone https://github.com/melROLL/Mortadella_Slic3r
+      git clone https://github.com/melROLL/Bee_Slic3r
+	        git clone https://github.com/melROLL/SuperSlicerM
 cd 
 echo_yellow "===================="
 echo_green "===================="
