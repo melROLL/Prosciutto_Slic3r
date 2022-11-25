@@ -27,7 +27,7 @@ cd Mortadella_Slic3r
       S|s)
 
 sudo chmod +x Build_SuperSlicer.sh
-      git clone https://github.com/supermerill/SuperSlicer.git
+      git clone https://github.com/melROLL/SuperSlicer.git
       wait
 cd SuperSlicer 
         ;;
