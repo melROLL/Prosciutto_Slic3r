@@ -14,6 +14,7 @@ function echo_red {
   TEXT="${@}"
   echo -e "\e[31m${TEXT}\e[0m"
 }
+cd
 echo_yellow "===================="
 echo_green "===================="
 echo_yellow "=      Downloading      ="
@@ -21,7 +22,7 @@ echo_green "===================="
 echo_yellow "===================="
         git clone https://github.com/melROLL/Mortadella_Slic3r.git
       git clone https://github.com/melROLL/Bee_Slic3r.git
-	        git clone https://github.com/supermerill/SuperSlicer.git
+	        git clone https://github.com/melROLL/SuperSlicer.git
 cd 
 echo_yellow "===================="
 echo_green "===================="
@@ -46,7 +47,7 @@ echo_yellow "=      SuperSlicer      ="
 echo_green "===================="
 echo_yellow "===================="
 sudo chmod +x Build_SuperSlicer.sh
-      wait
+wait
 cd SuperSlicer 
 sudo apt update 
 sudo apt upgrade -y
